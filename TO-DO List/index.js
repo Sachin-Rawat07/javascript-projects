@@ -25,7 +25,7 @@ function createTask(value, index){
 
 
     const btn=document.createElement("button");
-    btn.setAttribute("class","deleteBtn");
+    btn.setAttribute("id","deleteBtn");
 
     btn.innerText="-";
     btn.addEventListener("click",()=>{
